@@ -1,0 +1,37 @@
+body {
+    background: white url("images/background.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(43, 255, 0);
+}
+
+h1, h2, li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(0, 255, 242);
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: rgb(255, 0, 212);
+    text-align: center;
+    line-height: 50px;
+}
